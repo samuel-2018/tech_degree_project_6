@@ -1,0 +1,15 @@
+{
+  "name": "tech_degree_project_6",
+  "version": "1.0.0",
+  "description": "Project 6: Static Node.js and Express Site (Tech Degree)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
