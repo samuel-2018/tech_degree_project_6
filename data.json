@@ -1,0 +1,72 @@
+{
+  "project": [
+    {
+      "id": 1,
+      "project_name": "A Random Quote Generator",
+      "description": "Displays a random quote at a click of a button and at timed intervals.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://sam.stickle.us/TTH/projects/tech_degree_project_1/",
+      "github_link": "https://github.com/samuel-2018/Tech_Degree_Project_1",
+      "image_urls": [
+        "./public/images/project_1_square.jpg",
+        "./public/images/project_1_landscape.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "List Pagination and Filtering",
+      "description": "Using progressive enhancement, turns a long list into one that is both paginated and searchable.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://sam.stickle.us/TTH/projects/tech_degree_project_2/",
+      "github_link": "https://github.com/samuel-2018/Tech_Degree_Project_2",
+      "image_urls": [
+        "./public/images/project_2_square.jpg",
+        "./public/images/project_2_landscape_1.jpg",
+        "./public/images/project_2_landscape_2.jpg",
+        "./public/images/project_2_landscape_3.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Interactive Form",
+      "description": "Using progressive enhancement, adds validation and shows or hides information as needed.",
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+      "live_link": "https://sam.stickle.us/TTH/projects/tech_degree_project_3/",
+      "github_link": "https://github.com/samuel-2018/Tech_Degree_Project_3",
+      "image_urls": [
+        "./public/images/project3__square.jpg",
+        "./public/images/project_3_landscape_1.jpg",
+        "./public/images/project_3_landscape_2.jpg",
+        "./public/images/project_3_landscape_3.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "OOP Game Show App",
+      "description": "Listens for keyboard or click events and responds by revealing matching letter or removing a heart.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://sam.stickle.us/TTH/projects/tech_degree_project_4/",
+      "github_link": "https://github.com/samuel-2018/Tech_Degree_Project_4",
+      "image_urls": [
+        "./public/images/project_4_square.jpg",
+        "./public/images/project_4_landscape_1.jpg",
+        "./public/images/project_4_landscape_2.jpg",
+        "./public/images/project_4_landscape_3.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "project_name": "Public API Requests",
+      "description": "Fetches data from the randomuser.me API to create a demo employee directory that is both searchable and that provides a pop-up modal window for each entry.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://sam.stickle.us/TTH/projects/tech_degree_project_5/",
+      "github_link": "https://github.com/samuel-2018/tech_degree_project_5",
+      "image_urls": [
+        "./public/images/project_5_square.jpg",
+        "./public/images/project_5_landscape_1.jpg",
+        "./public/images/project_5_landscape_2.jpg",
+        "./public/images/project_5_landscape_3.jpg"
+      ]
+    }
+  ]
+}
