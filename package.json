@@ -2,7 +2,7 @@
   "name": "tech_degree_project_6",
   "version": "1.0.0",
   "description": "Project 6: Static Node.js and Express Site (Tech Degree)",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
