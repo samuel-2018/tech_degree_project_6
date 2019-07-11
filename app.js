@@ -17,7 +17,9 @@ app.get('/about', (req, res, next) => {
 app.get('/:id', (req, res, next) => {
   // 'id' is stored in req.params.id
   if (req.params.id >= 1 && req.params.id <= 5) {
-    res.render('project', { project: data.projects[req.params.id] });
+    // For allowing human-friendly url #.
+    const idZeroBased = req.params.id - 1;
+    res.render('project', { project: data.projects[idZeroBased] });
     next();
   }
   next();
