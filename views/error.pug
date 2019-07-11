@@ -1,0 +1,19 @@
+extends layout.pug
+
+//- Designed to match the styling of the about page.
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1= error.status
+
+        p.lead.text-light.overflow-wrap= error.message
+
+        //- The long urls, in the stack trace, are treated as words by the browser.
+        //- Without setting wrap, they would overflow.
+        .portfolio-bio.overflow-wrap
+          p= error.stack
