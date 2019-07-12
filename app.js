@@ -1,6 +1,7 @@
 const express = require('express');
 
 const app = express();
+
 const data = require('./data');
 
 app.set('view engine', 'pug');
@@ -11,11 +12,16 @@ app.use('/static', express.static('public'));
 // ---------------------------------------
 
 app.get('/', (req, res, next) => {
-  res.render('index', { projects: data.projects });
+  try {
+    // Passed data is used for displaying info
+    // and creating links for each project.
+    res.render('index', { projects: data.projects });
+  } catch (error) {
+    next(error);
+  }
 });
 
 app.get('/about', (req, res, next) => {
-  // Using try/catch to catch errors
   try {
     res.render('about');
   } catch (error) {
@@ -24,13 +30,17 @@ app.get('/about', (req, res, next) => {
 });
 
 app.get('/:id', (req, res, next) => {
-  // 'id' is stored in req.params.id
-  if (req.params.id >= 1 && req.params.id <= 5) {
-    // For allowing human-friendly url #.
-    const idZeroBased = req.params.id - 1;
-    res.render('project', { project: data.projects[idZeroBased] });
+  try {
+    // The 'id' in '/:id' is stored, behind the scenes, in req.params.id.
+    if (req.params.id >= 1 && req.params.id <= 5) {
+      // For allowing human-friendly url #s.
+      const idZeroBased = req.params.id - 1;
+      res.render('project', { project: data.projects[idZeroBased] });
+    }
+    next();
+  } catch (error) {
+    next(error);
   }
-  next();
 });
 
 // No matching url found, so creates a 404.
