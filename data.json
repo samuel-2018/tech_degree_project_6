@@ -9,13 +9,15 @@
       "github_link": "https://github.com/samuel-2018/Tech_Degree_Project_1",
       "image_urls": [
         "./static/images/project_1_square.jpg",
-        "./static/images/project_1_landscape.jpg"
+        "./static/images/project_1_landscape_1.jpg",
+        "./static/images/project_1_landscape_2.jpg",
+        "./static/images/project_1_landscape_3.jpg"
       ]
     },
     {
       "id": 2,
       "project_name": "List Pagination and Filtering",
-      "description": "Using progressive enhancement, turns a long list into one that is both paginated and searchable.",
+      "description": "Using progressive enhancement, turns a long list of items into a webpage that is both paginated and searchable.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://sam.stickle.us/TTH/projects/tech_degree_project_2/",
       "github_link": "https://github.com/samuel-2018/Tech_Degree_Project_2",
