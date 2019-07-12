@@ -23,7 +23,8 @@ h6 {
 
 p {
   font-size: 15px;
-  color: #666;
+  /* color: #666; */
+  color: rgb(75, 75, 75);
 }
 
 .round {
@@ -31,15 +32,18 @@ p {
 }
 
 .text-light {
-  color: #666;
+  /* color: #666; */
+  color: rgb(75, 75, 75);
 }
 
 .button {
-  background-color: #333;
+  /* background-color: #333; */
+  background-color: #7e8190;
 }
 
 .button:hover {
-  background-color: #111;
+  /* background-color: #111; */
+  background-color: #60637a;
 }
 
 a {
@@ -63,8 +67,9 @@ a:hover {
 .portfolio-me {
   padding: 20px;
   background: #121213;
+  /* background: #7e8190; */
   color: #fff;
-  box-shadow: none !important;
+  /* box-shadow: none !important; */
 }
 
 .portfolio-me p {
@@ -152,12 +157,92 @@ a:hover {
 .portfolio-bio {
   line-height: 25px;
 }
+.portfolio-bio p {
+  padding-bottom: 0;
+}
 
-/******************
-   Utility
-*******************/
+/*******************************
+   Custom Error Page
+********************************/
 
 .overflow-wrap {
   overflow-wrap: break-word;
   max-width: 100;
+}
+
+/*******************************
+  Thumbnail Effects
+********************************/
+
+/*Because objects can block other objects from receiving hover events, the events cannot be handled on each individual block. A higher level block needs to received that information for all blocks that need it. */
+
+.zoom-n-clip__wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.zoom-n-clip__image {
+  transition: 0.4s ease-out;
+}
+
+.zoom-n-clip__wrapper:hover > .zoom-n-clip__image {
+  transform: scale(1.25);
+  object-fit: cover;
+}
+
+.text-overlay__wrapper {
+  position: absolute;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  /* For some reason, the child element will not show without having the left and top set. */
+  left: 1px;
+  top: 1px;
+  width: 100%;
+  height: 100%;
+  /* Prevents it from blocking hover event.*/
+  pointer-events: none;
+}
+
+.text-overlay {
+  visibility: hidden;
+  padding: 2rem;
+  transition: 0.4s ease-out;
+  /* The visibility/display of text cannot be animated. But the opacity can. */
+  opacity: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem #7e8190;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.zoom-n-clip__wrapper:hover .text-overlay {
+  visibility: visible;
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity: 100;
+}
+
+/*******************************
+  Misc.
+********************************/
+
+body {
+  background-color: rgb(247, 239, 230);
+}
+.off-canvas.portfolio-me {
+  box-shadow: 0.25rem 0 0.5rem gray;
+}
+h1 {
+  color: #60806d;
+}
+.image,
+.thumbnail,
+.button {
+  border-radius: 3px;
 }
