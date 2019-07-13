@@ -12,7 +12,7 @@ This project presents a portfolio of my recent work. The information about each 
 
 Run 'npm start'. Open 'http://localhost:3000/' in your browser.
 
-### “Extra Credit” Features
+## “Extra Credit” Features
 
 - Customized package.json so app will run by typing 'npm start'
 - Error handling
