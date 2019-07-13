@@ -11,6 +11,7 @@ app.use('/static', express.static('public'));
 //  ROUTES
 // ---------------------------------------
 
+// Index
 app.get('/', (req, res, next) => {
   try {
     // Passed data is used for displaying info
@@ -21,6 +22,7 @@ app.get('/', (req, res, next) => {
   }
 });
 
+// About
 app.get('/about', (req, res, next) => {
   try {
     res.render('about');
@@ -29,15 +31,23 @@ app.get('/about', (req, res, next) => {
   }
 });
 
+// Project pages
 app.get('/:id', (req, res, next) => {
+  // TO DO: Does the data in '/:id' need escaped?
+
   try {
     // The 'id' in '/:id' is stored, behind the scenes, in req.params.id.
-    if (req.params.id >= 1 && req.params.id <= 5) {
-      // For allowing human-friendly url #s.
-      const idZeroBased = req.params.id - 1;
-      res.render('project', { project: data.projects[idZeroBased] });
+
+    // Looks for a matching id(url).
+    // Returns an object with data needed to create the requested page.
+    const project = data.projects.filter(item => item.id === req.params.id)[0];
+
+    // If 'project' is not empty, then there is a matching page.
+    if (project) {
+      res.render('project', { project });
+    } else {
+      next();
     }
-    next();
   } catch (error) {
     next(error);
   }
