@@ -8,8 +8,13 @@ This project presents a portfolio of my recent work. The information about each 
 
 (The project uses supplied CSS and JavaScript files and Pug templates.)
 
-## “Extra Credit” Features
+## How to start app
 
+Run 'npm start'. Open 'http://localhost:3000/' in your browser.
+
+### “Extra Credit” Features
+
+- Customized package.json so app will run by typing 'npm start'
 - Error handling
   - Created a Pug template named error.pug.
   - 404 and 500 errors are displayed using this custom page.
