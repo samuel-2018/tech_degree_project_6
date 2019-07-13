@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": 1,
+      "id": "A+Random+Quote+Generator",
       "project_name": "A Random Quote Generator",
       "description": "Displays a random quote at a click of a button and at timed intervals.",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "List+Pagination+and+Filtering",
       "project_name": "List Pagination and Filtering",
       "description": "Using progressive enhancement, turns a long list of items into a webpage that is both paginated and searchable.",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "Interactive+Form",
       "project_name": "Interactive Form",
       "description": "Using progressive enhancement, adds validation and shows or hides information as needed.",
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "OOP+Game+Show+App",
       "project_name": "OOP Game Show App",
       "description": "Listens for keyboard and click events and responds by revealing matching letters or removing a heart.",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "Public+API+Requests",
       "project_name": "Public API Requests",
       "description": "Fetches data from a public API to create a demo employee directory that is both searchable and that provides a pop-up modal window for each entry.",
       "technologies": ["HTML", "CSS", "JavaScript"],
