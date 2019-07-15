@@ -32,7 +32,7 @@ app.get('/about', (req, res, next) => {
 });
 
 // Project pages
-app.get('/:id', (req, res, next) => {
+app.get('/projects/:id', (req, res, next) => {
   // TO DO: Does the data in '/:id' need escaped?
 
   try {
@@ -55,6 +55,9 @@ app.get('/:id', (req, res, next) => {
 
 // No matching url found, so creates a 404.
 app.use((req, res, next) => {
+  // Logs to terminal
+  console.error('404: Page not found.');
+
   const err = new Error('Page not found.');
   err.status = 404;
   next(err);
