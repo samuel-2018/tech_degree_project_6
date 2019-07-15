@@ -14,7 +14,7 @@ block content
 
       each project in projects
         .cell
-          a(href=`/${project.id}`)
+          a(href=`/projects/${project.id}`)
             .thumbnail.zoom-n-clip__wrapper
               img.zoom-n-clip__image(src= project.image_urls[0])
               .text-overlay__wrapper
