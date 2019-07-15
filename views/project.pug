@@ -26,6 +26,7 @@ block content
         a.button.expanded(href=`${github_link}`) GitHub Repo
     
     //- Project images
+    //- The image file path is being defined in data.json.
     each image_url, index in image_urls
       unless index == 0
         img.image(src=`${image_url}`)
