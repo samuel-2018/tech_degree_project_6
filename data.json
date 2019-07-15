@@ -8,10 +8,10 @@
       "live_link": "https://sam.stickle.us/TTH/projects/tech_degree_project_1/",
       "github_link": "https://github.com/samuel-2018/Tech_Degree_Project_1",
       "image_urls": [
-        "./static/images/project_1_square.jpg",
-        "./static/images/project_1_landscape_1.jpg",
-        "./static/images/project_1_landscape_2.jpg",
-        "./static/images/project_1_landscape_3.jpg"
+        "/static/images/project_1_square.jpg",
+        "/static/images/project_1_landscape_1.jpg",
+        "/static/images/project_1_landscape_2.jpg",
+        "/static/images/project_1_landscape_3.jpg"
       ]
     },
     {
@@ -22,10 +22,10 @@
       "live_link": "https://sam.stickle.us/TTH/projects/tech_degree_project_2/",
       "github_link": "https://github.com/samuel-2018/Tech_Degree_Project_2",
       "image_urls": [
-        "./static/images/project_2_square.jpg",
-        "./static/images/project_2_landscape_1.jpg",
-        "./static/images/project_2_landscape_2.jpg",
-        "./static/images/project_2_landscape_3.jpg"
+        "/static/images/project_2_square.jpg",
+        "/static/images/project_2_landscape_1.jpg",
+        "/static/images/project_2_landscape_2.jpg",
+        "/static/images/project_2_landscape_3.jpg"
       ]
     },
     {
@@ -36,10 +36,10 @@
       "live_link": "https://sam.stickle.us/TTH/projects/tech_degree_project_3/",
       "github_link": "https://github.com/samuel-2018/Tech_Degree_Project_3",
       "image_urls": [
-        "./static/images/project_3_square.jpg",
-        "./static/images/project_3_landscape_1.jpg",
-        "./static/images/project_3_landscape_2.jpg",
-        "./static/images/project_3_landscape_3.jpg"
+        "/static/images/project_3_square.jpg",
+        "/static/images/project_3_landscape_1.jpg",
+        "/static/images/project_3_landscape_2.jpg",
+        "/static/images/project_3_landscape_3.jpg"
       ]
     },
     {
@@ -50,10 +50,10 @@
       "live_link": "https://sam.stickle.us/TTH/projects/tech_degree_project_4/",
       "github_link": "https://github.com/samuel-2018/Tech_Degree_Project_4",
       "image_urls": [
-        "./static/images/project_4_square.jpg",
-        "./static/images/project_4_landscape_1.jpg",
-        "./static/images/project_4_landscape_2.jpg",
-        "./static/images/project_4_landscape_3.jpg"
+        "/static/images/project_4_square.jpg",
+        "/static/images/project_4_landscape_1.jpg",
+        "/static/images/project_4_landscape_2.jpg",
+        "/static/images/project_4_landscape_3.jpg"
       ]
     },
     {
@@ -64,10 +64,10 @@
       "live_link": "https://sam.stickle.us/TTH/projects/tech_degree_project_5/",
       "github_link": "https://github.com/samuel-2018/tech_degree_project_5",
       "image_urls": [
-        "./static/images/project_5_square.jpg",
-        "./static/images/project_5_landscape_1.jpg",
-        "./static/images/project_5_landscape_2.jpg",
-        "./static/images/project_5_landscape_3.jpg"
+        "/static/images/project_5_square.jpg",
+        "/static/images/project_5_landscape_1.jpg",
+        "/static/images/project_5_landscape_2.jpg",
+        "/static/images/project_5_landscape_3.jpg"
       ]
     }
   ]
