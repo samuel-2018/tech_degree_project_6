@@ -69,6 +69,53 @@
         "/static/images/project_5_landscape_2.jpg",
         "/static/images/project_5_landscape_3.jpg"
       ]
+    },
+    {
+      "id": "React+Gallery",
+      "project_name": "React Gallery App",
+      "description": "Provides a portal for searching and viewing images from the photo sharing site Unsplash.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "React Router",
+        "Axios"
+      ],
+      "live_link": "http://react-gallery.sam.stickle.us/",
+      "github_link": "https://github.com/samuel-2018/tech_degree_project_7_v2",
+      "image_urls": [
+        "/static/images/project_7_square.jpg",
+        "/static/images/project_7_landscape_1.jpg",
+        "/static/images/project_7_landscape_2.jpg",
+        "/static/images/project_7_landscape_3.jpg"
+      ]
+    },
+    {
+      "id": "Full+Stack+App",
+      "project_name": "Full Stack App with React and a REST API",
+      "description": "Users can view courses created by others as well as upload their own to the database.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "React Router",
+        "React Context API",
+        "Create React App",
+        "Axios",
+        "Node.js",
+        "Express",
+        "SQL ORM Sequelize"
+      ],
+      "live_link": "http://school.sam.stickle.us/",
+      "github_link": "https://github.com/samuel-2018/tech_degree_project_10",
+      "image_urls": [
+        "/static/images/project_10_square.jpg",
+        "/static/images/project_10_landscape_1.jpg",
+        "/static/images/project_10_landscape_2.jpg",
+        "/static/images/project_10_landscape_3.jpg"
+      ]
     }
   ]
 }
