@@ -1,40 +1,38 @@
-const express = require('express');
+const express = require("express");
 
 const app = express();
 
-const data = require('./data');
+const data = require("./data");
 
-app.set('view engine', 'pug');
-app.use('/static', express.static('public'));
+app.set("view engine", "pug");
+app.use("/static", express.static("public"));
 
 // ---------------------------------------
 //  ROUTES
 // ---------------------------------------
 
 // Index
-app.get('/', (req, res, next) => {
+app.get("/", (req, res, next) => {
   try {
     // Passed data is used for displaying info
     // and creating links for each project.
-    res.render('index', { projects: data.projects });
+    res.render("index", { projects: data.projects });
   } catch (error) {
     next(error);
   }
 });
 
 // About
-app.get('/about', (req, res, next) => {
+app.get("/about", (req, res, next) => {
   try {
-    res.render('about');
+    res.render("about");
   } catch (error) {
     next(error);
   }
 });
 
 // Project pages
-app.get('/projects/:id', (req, res, next) => {
-  // TO DO: Does the data in '/:id' need escaped?
-
+app.get("/projects/:id", (req, res, next) => {
   try {
     // The 'id' in '/:id' is stored, behind the scenes, in req.params.id.
 
@@ -44,7 +42,7 @@ app.get('/projects/:id', (req, res, next) => {
 
     // If 'project' is not empty, then there is a matching page.
     if (project) {
-      res.render('project', { project });
+      res.render("project", { project });
     } else {
       next();
     }
@@ -56,9 +54,9 @@ app.get('/projects/:id', (req, res, next) => {
 // No matching url found, so creates a 404.
 app.use((req, res, next) => {
   // Logs to terminal
-  console.error('404: Page not found.');
+  console.error("404: Page not found.");
 
-  const err = new Error('Page not found.');
+  const err = new Error("Page not found.");
   err.status = 404;
   next(err);
 });
@@ -76,7 +74,7 @@ app.use((err, req, res, next) => {
   }
 
   // Uses custom error page.
-  res.render('error');
+  res.render("error");
 });
 
 app.listen(3000);
