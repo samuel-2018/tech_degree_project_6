@@ -2,6 +2,7 @@
   "projects": [
     {
       "id": "A+Random+Quote+Generator",
+      "archived": true,
       "project_name": "A Random Quote Generator",
       "description": "Displays a random quote at a click of a button and at timed intervals.",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -16,6 +17,7 @@
     },
     {
       "id": "List+Pagination+and+Filtering",
+      "archived": false,
       "project_name": "List Pagination and Filtering",
       "description": "Using progressive enhancement, turns a long list of items into a webpage that is both paginated and searchable.",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -30,6 +32,7 @@
     },
     {
       "id": "Interactive+Form",
+      "archived": false,
       "project_name": "Interactive Form",
       "description": "Using progressive enhancement, adds validation and shows or hides information as needed.",
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
@@ -44,6 +47,7 @@
     },
     {
       "id": "OOP+Game+Show+App",
+      "archived": false,
       "project_name": "OOP Game Show App",
       "description": "Listens for keyboard and click events and responds by revealing matching letters or removing a heart.",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -58,6 +62,7 @@
     },
     {
       "id": "Public+API+Requests",
+      "archived": false,
       "project_name": "Public API Requests",
       "description": "Fetches data from a public API to create a demo employee directory that is both searchable and that provides a pop-up modal window for each entry.",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -72,6 +77,7 @@
     },
     {
       "id": "React+Gallery",
+      "archived": false,
       "project_name": "React Gallery App",
       "description": "Provides a portal for searching and viewing images from the photo sharing site Unsplash.",
       "technologies": [
@@ -92,7 +98,31 @@
       ]
     },
     {
+      "id": "SQL+Library",
+      "archived": false,
+      "project_name": "SQL Library Manager",
+      "description": "Dynamic web app that allows users to view, add, update, and delete entries in a database for books.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "Pug",
+        "SQL ORM Sequelize"
+      ],
+      "live_link": "http://library.sam.stickle.us/",
+      "github_link": "https://github.com/samuel-2018/tech_degree_project_8",
+      "image_urls": [
+        "/static/images/project_8_square.jpg",
+        "/static/images/project_8_landscape_1.jpg",
+        "/static/images/project_8_landscape_2.jpg",
+        "/static/images/project_8_landscape_3.jpg"
+      ]
+    },
+    {
       "id": "Full+Stack+App",
+      "archived": false,
       "project_name": "Full Stack App with React and a REST API",
       "description": "Users can view courses created by others as well as upload their own to the database.",
       "technologies": [
@@ -115,6 +145,54 @@
         "/static/images/project_10_landscape_1.jpg",
         "/static/images/project_10_landscape_2.jpg",
         "/static/images/project_10_landscape_3.jpg"
+      ]
+    },
+    {
+      "id": "Book+Trading+Club",
+      "archived": false,
+      "project_name": "Book Trading Club",
+      "description": "This full-stack app allows users to initiate trades as well as accept or reject trade requests. The REST API implements all the CRUD operations with a MySQL database.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "React Router",
+        "React Context API",
+        "Create React App",
+        "Axios",
+        "Node.js",
+        "Express",
+        "SQL ORM Sequelize"
+      ],
+      "live_link": "http://book-trader-client.sam.stickle.us/",
+      "github_link": "https://github.com/samuel-2018/book_trader_client",
+      "image_urls": [
+        "/static/images/project_11_square.jpg",
+        "/static/images/project_11_landscape_1.jpg",
+        "/static/images/project_11_landscape_2.jpg",
+        "/static/images/project_11_landscape_3.jpg"
+      ]
+    },
+    {
+      "id": "Game+of+Life",
+      "archived": false,
+      "project_name": "Conway's Game of Life",
+      "description": "Responsive design uses window dimensions to determine the number of rows and columns. ",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Create React App"
+      ],
+      "live_link": "http://game-of-life.sam.stickle.us/",
+      "github_link": "https://github.com/samuel-2018/game_of_life",
+      "image_urls": [
+        "/static/images/project_12_square.jpg",
+        "/static/images/project_12_landscape_1.jpg",
+        "/static/images/project_12_landscape_2.jpg",
+        "/static/images/project_12_landscape_3.jpg"
       ]
     }
   ]
